@@ -178,14 +178,14 @@ a {
 
     .container_login {
         padding: 2em;
-        width: 50%;
+        width: 55%;
         border-radius: 20px ;
         border: solid 2px rgb(253, 253, 253);
         box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
     }
 
     main {
-        height: 80vh;
+        height: 78vh;
     }
   }
 
