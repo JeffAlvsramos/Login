@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url(img/cursor.png) , auto;
+}
+
+body {
+    background-image: url(img/88246.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #000000;
+    
+}
+
+main {
+    height:80vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    color: #000000;
+}
+
+li , input {
+    list-style: none;
+    padding: 0.5em;
+}
+
+
+.container_login {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.container_login {
+    background-color: rgba(91, 85, 85, 0.044);
+    backdrop-filter: blur(2px);
+    padding: 2em;
+    width: 15%;
+    border-radius: 20px ;
+    border: solid 2px rgb(253, 253, 253);
+    box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+}
+
+#pass , #ema{
+    border-radius: 1em;
+    margin-bottom: 0.5rem;
+    border: none;
+    padding: 0.6rem;
+}
+
+input::placeholder {
+    padding: 0.1em ;
+}
+
+#ema::placeholder {
+    background-image: url(img/avatar.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1.5em;
+}
+
+#pass::placeholder {
+    background-image: url(img/key.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1.5em;
+}
+
+
+#butao {
+    background-image: url(img/enter.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+    width: 10em;
+    margin-top: 0.5em;
+}
+
+#butao {
+    cursor: pointer;
+    border: solid #020202 1px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: larger;
+    cursor: url(img/cursor3.png) , auto;
+}
+
+#butao:hover {
+    background-color: #000000;
+    color: #faf4f4;
+    border: solid #ffffff 1px;
+    cursor: url(img/cursor3.png) , auto;
+    background-image: url(img/login2.png);
+    background-position: right;
+    transition: all 0.5s;
+
+}
+
+.container_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+    
+    
+}
+
+ a {
+    text-decoration-line: none;
+    color: #faf4f4;
+}
+
+
+#imag_git {
+    border-radius: 20px;
+}
+
+footer , a , p {
+    cursor: url(img/cursor\ 2.png) , auto;
+}
+
+a {
+    cursor: url(img/cursor3.png) , auto;
+}
+
+.rodape {
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 20px;
+    height: 70px;
+    background-color: #000000;
+    color: #ffffffa7;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+@media (max-width: 360px) {
+    .container_login {
+        padding: 2em;
+        width: 55%;
+        border-radius: 20px ;
+        border: solid 2px rgb(253, 253, 253);
+        box-shadow: 10px 10px 31px -15px rgba(0,0,0,0.5);
+    }
+
+    main {
+        height: 75vh;
+    }
+  }
